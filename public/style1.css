@@ -1,0 +1,73 @@
+/* Dark Theme Background */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+/* Heading */
+h2 {
+    color: #ff4b5c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Post Info Boxes */
+#pos, #user {
+    background-color: #1e1e1e;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 10px auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Different Border Colors for Each */
+#pos {
+    border-left: 4px solid #03dac6; /* Teal */
+}
+#user {
+    border-left: 4px solid #bb86fc; /* Purple */
+}
+
+/* Form Container */
+form {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    resize: vertical;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Button Styling */
+button {
+    background-color: #03dac6;
+    color: #121212;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #02c3b1;
+}
