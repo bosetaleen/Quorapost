@@ -1,6 +1,6 @@
 const express=require("express");
 const app=express();
-const port=8080;
+const port = process.env.PORT || 8080;
 const path=require("path");
 const { v4: uuidv4 } = require('uuid');
 const methodOverride=require("method-override");
@@ -73,6 +73,6 @@ app.delete("/posts/:id",(req,res)=>{
    res.redirect("/posts");
 });
 
-app.listen(port,()=>{
-    console.log(`listen to post:8080`)
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
 });
